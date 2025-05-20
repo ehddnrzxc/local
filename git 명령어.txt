@@ -1,0 +1,48 @@
+git config --global user.name : 사용자 등록
+
+git config --global user.email : 사용자 이메일 등록 
+
+git config --list : 명령어
+
+mkdir local : local 폴더 만들기
+
+cd local : local 폴더로 이동
+
+git init : git 폴더 생성 
+
+echo 'a' >> a.txt : a라는 내용의 a라는 제목을 가진 txt파일 생성
+
+git status : 상태 확인
+
+git add . : 추적할 수 있게 등록
+
+git rm --cached a.txt : a.txt 추적 삭제
+
+vi a.txt : a.txt 편집[ i(편집), End(편집종료), :(나갈때모드), w(저장), q(나가기)
+
+git commit : commmit 등록
+
+git log : log 확인
+
+git log --oneline : log 한줄 요약
+
+git commit -m ' ' : commit 간편 등록
+
+git remote add origin 주소 : github 등록
+
+git push origin main : 파일 github에 올리기
+
+git push -f origin main : github에 강제로 그 전 버전 업데이트 할때, 강제로 commit
+
+git reset --soft HEAD^ : 바로 전 commit 삭제 
+ 
+git update-ref -d HEAD : commit 전체 리셋
+
+git pull origin main : github에 있는 파일 가져오기
+
+git pull --allow-unrelated-histories origin main : github에서 강제로 가져오기
+
+git clone 주소 : github에서 통째로 가져오기
+
+git commit --ammend -m ' ' : 그 전 commit 수정
+
